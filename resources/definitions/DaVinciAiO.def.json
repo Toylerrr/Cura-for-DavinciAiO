@@ -1,0 +1,33 @@
+{
+    "name": "Da Vinci AiO",
+    "version": 2,
+    "inherits": "fdmprinter",
+    "metadata": {
+        "visible": true,
+        "author": "Toylerrr",
+        "manufacturer": "DaVinci",
+        "platform": "DaVinciaio.stl",
+        "file_formats": "text/x-gcode;application",
+        "platform_offset": [ 0, 0, 0],
+        "machine_extruder_trains":
+        {
+            "0": "DaVinciaio_extruder"
+        },
+        "supports_usb_connection": true,
+        "supports_network_connection": false
+    },
+
+    "overrides": {
+        "machine_name": { "default_value": "Creator Pro" },
+        "machine_gcode_flavor": { "default_value": "Repetier" },
+        "material_diameter": { "default_value": 1.75 },
+        "machine_extruder_count": { "default_value": 1 },
+        "machine_heated_bed": { "default_value": true },
+        "machine_center_is_zero": { "default_value": false },
+        "machine_height": { "default_value": 200 },
+        "machine_depth": { "default_value": 200 },
+        "machine_width": { "default_value": 200 },
+        "machine_start_gcode": {"default_value": ";  DaVinciaio start.gcode" },
+        "machine_end_gcode": {"default_value": ";  DaVinciaio end.gcode"}      
+    }
+}
