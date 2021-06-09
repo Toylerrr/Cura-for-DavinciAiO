@@ -26,8 +26,6 @@
         "machine_center_is_zero": { "default_value": false },
         "machine_height": { "default_value": 200 },
         "machine_depth": { "default_value": 200 },
-        "machine_width": { "default_value": 200 },
-        "machine_start_gcode": {"default_value": ";  DaVinciaio start.gcode" },
-        "machine_end_gcode": {"default_value": ";  DaVinciaio end.gcode"}      
+        "machine_width": { "default_value": 200 },  
     }
 }
